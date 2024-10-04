@@ -18,6 +18,9 @@ export const MovieCastPopup = ({ isOpen, onClose, movie }) => {
     enabled: isOpen,
   });
 
+
+
+
   const onSupportBtnClick = () => {
     onClose();
     dispatch(openSupport());

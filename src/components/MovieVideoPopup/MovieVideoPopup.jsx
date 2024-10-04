@@ -22,10 +22,10 @@ export const MovieVideoPopup = ({ isOpen, onClose, movie }) => {
     dispatch(openSupport());
   };
 
-  console.log(trailers);
+
 
   const trailer = trailers?.find(t => t.site ==="YouTube" )
-  console.log(trailer)
+
 
 
   return (
